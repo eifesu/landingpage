@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'MADE Soulmaze';
+    src: url('MADESoulmaze.woff2') format('woff2'),
+        url('MADESoulmaze.woff') format('woff'),
+        url('MADESoulmaze.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+    
+      }
+    }
+
+
+#main{
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'MADE Soulmaze';
+    font-size: 2vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #0c0b16;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img {
+    height: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#bg-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.card {
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 56px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 56px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 56px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+#method {
+    height: 60vh;
+}
+#method-card {
+    height: 100%;
+    width: 60%;
+}
+#home-text {
+    color: white;
+}
+#home-text h1 {
+    font-size: 10vh;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: #0c0b16;
+}
+
+#pricing {
+    justify-content:space-between;
+}
+
+#pricing-card:hover{
+    width: 65%;
+}
+
+iframe {
+    width: 100%;
+    height: 80%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4vh;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3vh;
+}
+
+
